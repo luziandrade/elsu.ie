@@ -10115,11 +10115,11 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.demand ol {
+.demand ol{
   text-align: left;
   counter-reset: item;
 }
-.demand li{
+.demand li {
   display: block;
   text-align: left;
   color: rgba(255, 255, 255, 0.75);
