@@ -10130,4 +10130,33 @@ header.masthead h1 {
   font-size: 1.4em;
 }
 
+.post-meta {
+  margin-top: 10px;
+  color:rgba(244, 98, 58, 0.9);
+  font-style: italic;
+}
+.post-meta a{
+  color: rgba(244, 98, 58, 0.9);
+  font-weight: 600;
+}
+
+
+.post-press{
+  margin-top: 10px;
+  color: #1b1e21;
+  font-style: italic;
+}
+
+.post-press a{
+  color: #1b1e21;
+  font-weight: 600;
+}
+
+.press {
+  font-family: 'Courgette', cursive;
+  font-size: 45px;
+}
+
+
+
 
