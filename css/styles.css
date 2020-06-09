@@ -10048,7 +10048,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(17, 92, 8, 0.8) 0%, rgba(46, 92, 8, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(17, 92, 8, 0.8) 0%, rgba(46, 92, 8, 0.8) 100%), url("../assets/img/elsulogo.PNG");
   background-size: cover;
 }
 header.masthead h1 {
