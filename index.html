@@ -86,7 +86,7 @@ These are the demands of students affected by the closure of English Language sc
                                         <a class="btn btn-primary btn-xl js-scroll-trigger" target="_blank" href="assets/img/SupportDeliverooWorkers.pdf">Support Delivery Workers</a>
                                     </div>
                                     </div>
-                        
+                            
                                 
             </div>
         </div>
@@ -98,8 +98,8 @@ These are the demands of students affected by the closure of English Language sc
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0 press">elsu update</h2>
                         <hr class="divider light my-4" />
-                        <div class="resp-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/BZAFOVUUG7c" gesture="media"  allow="encrypted-media" allowfullscreen></iframe></div>
-                        <p class="text-white-50 mb-4"> United Nations, Interdepartmental and Leo meetings following Student Demands</p>
+                        <div class="resp-container"><iframe class="responsive-iframe" src="https://www.youtube.com/embed/AScIdKvxrjw" gesture="media"  allow="encrypted-media" allowfullscreen></iframe></div>
+                        <p class="text-white-50 mb-4"> This is a video about how we need to get organised for a meeting with Leo Varadkar to make sure that delivery riders are protected in the streets, and also from changes in the law that will soon be coming after the UK Uber rolling and the Italian ruling on Deliveroo.</p>
                     </div>
                 </div>
             </div>
@@ -244,6 +244,36 @@ These are the demands of students affected by the closure of English Language sc
 	});
 </script>-->
 <!-- Core theme JS-->
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Mar6, 202 17:07:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
 
 </body>
 </html>
