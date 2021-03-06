@@ -10475,7 +10475,7 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
@@ -10492,7 +10492,9 @@ header.masthead h1 {
 .mb-8 {
   margin-top: 3rem !important;
 }
-
+.btndownload {
+  margin-top: 0.5rem;
+}
 @media screen and(min-width: 992px) {
   header.masthead {
     height: 100vh;
