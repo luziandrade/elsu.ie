@@ -10614,21 +10614,6 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.demand ol {
-  text-align: left;
-  counter-reset: item;
-}
-.demand li {
-  display: block;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.75);
-}
-.demand li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item;
-  font-size: 1.4em;
-}
-
 .post-meta {
   margin-top: 10px;
   color: rgba(244, 98, 58, 0.9);
